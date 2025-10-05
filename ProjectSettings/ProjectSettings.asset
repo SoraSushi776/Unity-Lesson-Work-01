@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: a2b3ec5589b61a74595f35f90f1dc1e5
+  productGUID: 9c3ef24b2a98246a997bc1a30e5d6ff0
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: DefaultCompany
-  productName: Unity_Lesson_Work01
+  companyName: Brick
+  productName: UnityLesson_001_Brick
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -775,7 +775,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: frAQBc8Wsa1xVPfvJcrgRYwTiizs2trQ
+  ps4Passcode: LT6NxpoRQ3yVaNeO9XGCBF7ILG4FBVuR
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -864,16 +864,16 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: UnityLessonWork01
-  metroPackageVersion: 1.0.0.0
+  metroPackageName: UnityLesson_001_Brick
+  metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Unity_Lesson_Work01
+  metroApplicationDescription: UnityLesson_001_Brick
   wsaImages: {}
-  metroTileShortName: Unity_Lesson_Work01
+  metroTileShortName: 
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
