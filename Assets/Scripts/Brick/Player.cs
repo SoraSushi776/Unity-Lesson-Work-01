@@ -8,6 +8,7 @@ public class Player : MonoBehaviour
 
     public static int RemovedCubeCount = 0;
     public static int BallCount = 0;
+    public static bool IsPlaying = false;
     
     void Update()
     {
@@ -35,6 +36,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.R))
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            ResetPlayer();
         }
         
         float mouseX = Input.GetAxis("Mouse X");
@@ -44,8 +46,17 @@ public class Player : MonoBehaviour
         
         transform.rotation = Quaternion.Euler(transform.rotation.eulerAngles.x, transform.rotation.eulerAngles.y, 0);
         
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        if (IsPlaying)
+        {
+            Cursor.lockState = CursorLockMode.Locked;
+            Cursor.visible = false;
+        }
+        else
+        {
+            Cursor.lockState = CursorLockMode.None;
+            Cursor.visible = true;
+        }
+        
     }
 
     public void Fire()
@@ -61,5 +72,6 @@ public class Player : MonoBehaviour
     {
         BallCount = 0;
         RemovedCubeCount = 0;
+        IsPlaying = false;
     }
 }
